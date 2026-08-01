@@ -1,0 +1,13 @@
+{
+  "name": "버건디의 성 — 오토마 타일 신탁",
+  "short_name": "오토마 신탁",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#efe8d8",
+  "theme_color": "#7a2035",
+  "orientation": "portrait",
+  "icons": [
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
