@@ -266,16 +266,19 @@
 
   .building-sub {
     display: flex;
-    align-items: flex-start;
-    gap: 0.65rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
     background: rgba(0,0,0,0.05);
     border-radius: 3px;
-    padding: 0.6rem 0.7rem;
+    padding: 0.9rem 0.7rem;
   }
   @media (prefers-color-scheme: dark) { .building-sub { background: rgba(255,255,255,0.06); } }
   :root[data-theme="dark"] .building-sub { background: rgba(255,255,255,0.06); }
+  .building-sub .hex.icon { --hex-size: 10.4rem; }
   .building-sub .txt { font-size: 0.87rem; }
-  .building-sub .txt .name { font-weight: 700; display: block; margin-bottom: 0.1rem; }
+  .building-sub .txt .name { font-weight: 700; display: block; margin-bottom: 0.1rem; font-size: 1.05rem; }
   .building-sub .txt .desc { color: var(--fg-soft); }
 
   .chain-trail {
